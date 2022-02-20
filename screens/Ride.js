@@ -31,8 +31,8 @@ export default class RideScreen extends Component {
       userName: "",
       //email: firebase.auth()
       //email: firebase.auth().email
-      //email: firebase.auth().currentUser.email
-      email: firebase.auth().currentUser
+      email: firebase.auth().currentUser.email
+     // email: firebase.auth().currentUser
     };
   }
 
