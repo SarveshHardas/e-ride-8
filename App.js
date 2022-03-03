@@ -49,4 +49,4 @@ const AppSwitchNavigator = createSwitchNavigator(
   }
 );
 
-const AppContainer = createAppContainer(AppSwitchNavigator);
+const AppContainer = createAppContainer(AppSwitchNavigator)
